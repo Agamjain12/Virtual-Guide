@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "nodemon VGapp.js",
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
